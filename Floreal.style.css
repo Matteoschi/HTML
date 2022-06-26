@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(0, 0, 0);
+    margin-top: 15%;
+}
+@keyframes shine{
+    from{
+    background-position: center 0;
+    }
+    to {
+        background-position: center 200%;
+    }
+}
+h1{
+    text-align: center;
+    margin: 0;
+    font-size: 20vh;
+    letter-spacing: 1vw;
+    background: url("pattern.jpg");
+    background-size: auto 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 5s linear infinite;
+}
